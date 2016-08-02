@@ -1,0 +1,65 @@
+<style>
+  body{
+    background-color: orange;
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+  }
+  #background{
+    background-color: orange;
+  }
+  .black-border{
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 25%;
+  }
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12" id="background">
+      <h1 class="text-center">Mahatma Gandhi</h1>
+      <h2 class="text-center"><em>The Father of Nation</em></h2>
+      <div class="text-center">
+ <img class="black-border img-thumbnail" src="https://i.ytimg.com/vi/fIJEVk01nTc/hqdefault.jpg" style="background-color: orange;"/>
+        <div class="caption text-center">Mohandas Karamchand Gandhi was the preeminent leader of the Indian independence movement in British-ruled India.</div>
+          <div class="row">
+          <div class="col-xs-6">
+            <div class="born">
+              <button type="button" disabled>Born: October 2, 1869</button>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="death">
+            <button type="button" disabled>Death: January 30, 1948</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          <h3>Short note on Mahatma Gandhi:</h3>
+          <p>Mahatma Gandhi was the great Indian figure who enlightened the world with the principles of truth and non-violence. He belonged to an age when the principle of “Might is right” was the notion of the time. Countries were engaged fighting each
+            other while displaying their powers. After studying law, he went to South Africa to work for his clients. He raised his voice against the discrimination that was done again Indians and other dark people. However, he always adopted peaceful
+            means. After returning to India, he got the task of getting the country freed from the foreign rule. Gandhi condemned the mass killing incident of Jalianwala Bath. The people of the country, under the great leader, marched to Dandi and produced
+            salt. They were protesting against the unfair British tax regime. Gandhi was a supporter of indigenous cottage and khadi industry. The Swadeshi and Boycott movement inspired millions of Indians to come forward for the cause of the nation.
+            During the “Quit India movement” he asked Indians to “Do or die” for the freedom of the country. He was a saint. He was praised even by the British community.</p>
+          <h4>Some Quotes by Mahatma Gandhi </h4>
+          <ul>
+            <li>When it (violence) appears to do good, the good is only temporary; the evil it does is permanent.</li>
+            <li>Happiness is when what you think, what you say, and what you do are in harmony.</li>
+            <li>Hate the sin, love the sinner.</li>
+            <li>I believe in equality for everyone, except reporters and photographers.</li>
+            <li>You must not lose faith in humanity. Humanity is an ocean; if a few drops of the ocean are dirty, the ocean does not become dirty.</li>
+            <li>Victory attained by violence is tantamount to a defeat, for it is momentary.</li>
+            <li>An eye for an eye makes the whole world blind.</li>
+          </ul>
+          <h5>For more information about this incredible human being click on his <a href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" target="_blank">Wikipedia entry</a>.</h5>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <hr>
+      <p>Written and coded by Rishabh Aggarwal</p>
+    </footer>
+  </div>
