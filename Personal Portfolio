@@ -1,0 +1,102 @@
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="UTF-8">
+<script src="https://use.fontawesome.com/a7acb993c5.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Indie+Flower|Lobster+Two|Nunito" rel="stylesheet">
+
+<body>
+	<div class="container-fluid">
+		<header>  <!-- header -->
+			<div class="row">
+				<div class="col-md-3"><a href="#">Rishabh Aggarwal</a></div>
+				<div class="col-md-3"></div>
+        <div class="col-md-2"><a href="#about">About</a></div>
+				<div class="col-md-2"><a href="#portfolio">Projects</a></div>
+				<div class="col-md-2"><a href="#contact">Contact</a></div>
+			</div>
+		</header>
+    <div id="body-div">
+			<div id="about">  <!-- about div -->
+				<div class="row">
+					<div class="col-md-4"><p class="text-center"  id="title">Rishabh</p></div> <!-- first title -->
+					<div class="col-md-4">  <!-- last title -->
+					<p class="text-center" id="title">Aggarwal</p>
+					</div>
+          <div class="col-md-4">  <!-- title image -->
+					<img class="img-responsive center-block" id="title-image" src="http://i.imgur.com/xGZsrYi.jpg" alt="Rishabh Aggarwal">
+					</div>
+				</div>
+				<hr>
+        <h3 class="text-center" style="font-size: 3em;"><b> Front-End Developer </b></h3>
+				<hr>
+				<br>
+				<!-- description -->
+				<p class="text-center" id="description">My name is Rishabh Aggarwal. I am student at Maharaja Agrasen Institute of Technology and I am learning Front-End Developement.</p>
+        <br>
+        <p class="text-center" id="description"><b>Languages and Frameworks: </b>HTML5, CSS, jQuery, Bootstrap, C++, Scratch</p>
+			</div>
+      <br>
+<div id="portfolio">  <!-- portfolio title -->
+  <h4 class="text-center" id="portfolio-title"><b> Projects </b></h4>
+				<div class="row">
+					<div class="col-md-4"> <!-- portfolio images below -->
+						<figure class="portfolio-image">
+							<a href="https://codepen.io/Rishabh_Aggarwal/full/yJxJKp/" target="_blank"><img class="img-responsive center-block" src="http://i.imgur.com/7otIWsI.jpg" alt="Tribute Page"></a>
+							<figcaption class="text-center">Tribute Page</figcaption>
+						</figure>
+          </div>
+          <div class="col-md-4">
+						<figure class="portfolio-image">
+							<a href="https://www.youtube.com/watch?v=X88Mls5wbl4" target="_blank"><img class="img-responsive center-block" src="http://i.imgur.com/yxZgP1i.png" alt="Telephone Biling Project"></a>
+							<figcaption class="text-center">Telephone Biling System (C++ Project)</figcaption>
+						</figure>
+            <br><br><br>
+					</div>
+            <div class="rows container" id="contact">
+      <div class="col-sm-2 col-md-3 col-lg-3"></div>
+      <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6  jumbotron">
+        <form class="form-horizontal" action:"MAILTO:rishi.aggarwal028@gmail.com"autocomplete="on" method="post" target="_blank">
+          <legend>Contact Me:</legend>
+          <div class="form-group">
+            <label for="inputName" class="col-lg-2 control-label">Name</label>
+            <div class="col-lg-10">
+              <input type="text" class="form-control" placeholder="Enter name" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail" class="col-lg-2  control-label">E-mail</label>
+            <div class="col-lg-10">
+              <input type="email" class="form-control" placeholder="example@mail.com" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputEmail" style="" class="col-lg-2 control-label">Mobile number</label>
+            <div class="col-lg-10">
+              <input type="tel" class="form-control" placeholder="Mobile number" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="textArea" class="col-lg-2 control-label">Message</label>
+            <div class="col-lg-10">
+              <textarea placeholder="Type your message here. . . ." class="form-control" rows="5" id="textArea"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-lg-10 col-lg-offset-2">
+              <button type="submit" class="btn btn-info"><i class="fa fa-paper-plane">&nbsp;</i>Submit</button>&nbsp;
+              <button type="reset" class="btn btn-warning"><i class="fa fa-refresh"></i>&nbsp;Reset</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+            <footer id="footer" >
+            <div class="row">
+			<div class="col-lg-3"><button class="btn btn-primary"><a target="_blank" href="https://www.facebook.com/rishabh.aggarwal.5036"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></button></div>
+      <div class="col-lg-3"><button class="btn btn-primary"><a target="_blank" href="https://www.linkedin.com/in/rishabh-aggarwal-b7a720b8?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></button></div>
+		<div class="col-lg-3"><button class="btn btn-primary"><a target="_blank" href="https://github.com/RishabhAggarwal028"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></button></div>
+      <div class="col-lg-3"><button class="btn btn-primary"><a target="_blank" href="https://www.freecodecamp.com/rishabhaggarwal028"><i class="fa fa-code" aria-hidden="true"></i> FreeCodeCamp</a></button></div>
+          </div>
+      </footer>
+  </div>
+</body>
